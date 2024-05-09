@@ -1,0 +1,54 @@
+/* Write your CSS code here. */
+
+  html{
+    text-align:center;
+    font-size:12pt;
+    background:rgb(255, 247, 241);
+    align-content: center;
+}
+
+  h1 {
+    color: #8b3458;
+    font-size: 6rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-image:url("images/sakura.jpg");
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+  .link{
+    color:#8b345894;
+    font-family: cursive, sans-serif;
+    font-size: 2rem;
+    padding: 15px
+  }
+  h2 {
+    color:rgb(255, 247, 241) ;
+    font-family: cursive, sans-serif;
+    font-size: 2rem;
+  }
+
+
+  #bodytext{
+    font-size:1rem;
+    color:#8b3458;
+    background:rgb(255, 247, 241);
+    font-family: cursive, sans-serif;
+    margin: 0px
+  }
+
+  footer{
+
+        color:#8b3458;
+        font-size: 2rem;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        text-align:left;
+        margin: 20px
+
+  }
