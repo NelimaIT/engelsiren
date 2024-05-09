@@ -16,15 +16,25 @@
     font-style: normal;
     background-image:url("images/sakura.jpg");
     background-size: cover;
-    margin-bottom: 5px;
+    background-position: 20px;
+    margin-bottom: 30px;
+}
+#menu{
+    margin-top: 30px;
 }
 
-  .link{
+#actual_title{
+    margin-top: -30px;;
+}
+
+
+.link{
     color:#8b345894;
     font-family: cursive, sans-serif;
     font-size: 2rem;
-    padding: 15px
+    padding: 15px;
   }
+
   h2 {
     color:rgb(255, 247, 241) ;
     font-family: cursive, sans-serif;
@@ -43,7 +53,7 @@
   footer{
 
         color:#8b3458;
-        font-size: 2rem;
+        font-size: 1rem;
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
         font-weight: 700;
