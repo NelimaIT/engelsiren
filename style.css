@@ -9,10 +9,11 @@
     align-content: center;
 }
 
+
   h1 {
     color: #8b3458;
-    width:50%;
-    margin-left:25%;
+    /*width:50%;
+    margin-left:25%;*/
     font-size: 4rem;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -39,6 +40,7 @@
     margin-left: 0px;
     font-family: cursive, sans-serif;
   }
+
 
 
 #about_text_1{
@@ -72,6 +74,33 @@
 }
 
 
+.wrapper > div {
+    border: 6px solid #8b3458;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    color: #c58d8d;
+    font-family: cursive, sans-serif;
+    align-self: stretch;
+    text-align: center;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+  }
+
+  .one {
+    grid-column: 2 / 2;
+    grid-row: 2 / 1;
+  }
+  .two {
+    grid-column: 1/ 2;
+    grid-row: 1 /2;
+  }
+
+
   
   footer{
 
@@ -95,8 +124,8 @@
   .navbar {
     overflow: hidden;
     background-color: #c58d8d;
-    margin-left:25%;
-    margin-right:25%;
+    /*margin-left:25%;
+    margin-right:25%;*/
     margin-top:20px; 
     font-family: cursive;
     font-optical-sizing: auto;
@@ -159,14 +188,11 @@
     display: block;
   }
 
-  #spotify{
-    width:50%;
-    margin-left:25%;
-  }
+#signatur{
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+}
 
-  #copyright{
-    width:50%;
-    margin-left:25%;
-  }
 
- 
