@@ -13,7 +13,7 @@
     color: #8b3458;
     width:50%;
     margin-left:25%;
-    font-size: 6rem;
+    font-size: 4rem;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -21,35 +21,10 @@
     background-image:url("images/sakura.jpg");
     background-size: cover;
     background-position: 0px;
+    margin-top:0px;
     margin-bottom: 30px;
-
 }
 
-/* unvisited link */
-    a:link {
-    color: hsla(321, 20%, 42%, 0.741);
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #d380a394;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #892e5ce2;
-  }
-  
-#actual_title{
-    margin-top: -2%;
-}
-
-.link{
-    color:#8b345894;
-    font-family: cursive, sans-serif;
-    font-size: 2rem;
-    padding: 15px;
-  }
 
   h2 {
     color:rgb(255, 247, 241) ;
@@ -116,50 +91,73 @@
   }
 
   /* Dropdown Button */
-.dropbtn {
-    background-color: #8b3458;
-    color: white;
-    margin-right:1000px;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+
+  .navbar {
+    overflow: hidden;
+    background-color: #c58d8d;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:20px; 
+    font-family: cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2rem;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  .navbar a {
+    float: left;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
   .dropdown {
-    position: relative;
-    width:50%;
-    margin-left:0px;
-    display: inline-block;
-    margin-top: 10px;
+    float: left;
+    overflow: hidden;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  .dropdown .dropbtn {
+    font-size: 1.5rem;  
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(220, 126, 140);
+  }
+  
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #8b3458;
+    background-color: #c58d8d;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
-    color: pink;
+    float: none;
+    color: rgb(245, 245, 245);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    background-color: rgb(220, 126, 140);
+  }
   
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: rgb(175, 160, 163);}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
   #spotify{
     width:50%;
