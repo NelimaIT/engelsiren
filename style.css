@@ -1,8 +1,12 @@
+
+
 /* Write your CSS code here. */
 
   html{
     text-align:center;
     font-size:12pt;
+    width:50%;
+    margin-left:25%;
     background:rgb(255, 247, 241);
     align-content: center;
 }
@@ -12,7 +16,7 @@
     font-size: 6rem;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     background-image:url("images/sakura.jpg");
     background-size: cover;
@@ -112,4 +116,45 @@
     font-optical-sizing: auto;
   }
 
-
+  /* Dropdown Button */
+.dropbtn {
+    background-color: #8b3458;
+    color: white;
+    margin-right:1000px;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8b3458;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px white;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: pink;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: rgb(175, 160, 163);}
