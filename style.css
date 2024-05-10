@@ -78,8 +78,8 @@
 
 
 #about_text_2{
-    width:50%;
-    margin-left:25%;
+    width:37.5%;
+    margin-left:31.25%;
     background-color: #7a4058;
     color:rgb(255, 247, 241);
     font-family: cursive, sans-serif;
@@ -87,12 +87,15 @@
 }
 
 #about_text_3{
+    width:50%;
+    margin-left:25%;
     font-family: cursive, sans-serif;
     background-color: rgba(182, 96, 110, 0.5);
     color:#8b3458;
     font-family: cursive, sans-serif;
     align-self: center;
 }
+
 
   
   footer{
@@ -157,3 +160,15 @@
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: rgb(175, 160, 163);}
+
+  #spotify{
+    width:50%;
+    margin-left:25%;
+  }
+
+  #copyright{
+    width:50%;
+    margin-left:25%;
+  }
+
+ 
