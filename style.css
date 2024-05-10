@@ -16,17 +16,33 @@
     font-style: normal;
     background-image:url("images/sakura.jpg");
     background-size: cover;
-    background-position: 20px;
+    background-position: 0px;
     margin-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 #menu{
     margin-top: 30px;
 }
 
+/* unvisited link */
+    a:link {
+    color: hsla(321, 20%, 42%, 0.741);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #d380a394;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #892e5ce2;
+  }
+  
 #actual_title{
-    margin-top: -30px;;
+    margin-top: -2%;
 }
-
 
 .link{
     color:#8b345894;
@@ -41,24 +57,58 @@
     font-size: 2rem;
   }
 
-
   #bodytext{
     font-size:1rem;
+    background: rgb(255, 247, 241);
     color:#8b3458;
-    background:rgb(255, 247, 241);
+    margin-left: 0px;
     font-family: cursive, sans-serif;
-    margin: 0px
   }
 
+
+#about_text_1{
+    font-family: cursive, sans-serif;
+    width:25%;
+    margin-left:37.5%;
+    background-color: rgba(182, 96, 110, 0.247);
+    color:#8b3458;
+    font-family: cursive, sans-serif;
+    align-self: center;
+}
+
+
+#about_text_2{
+    width:50%;
+    margin-left:25%;
+    background-color: #7a4058;
+    color:rgb(255, 247, 241);
+    font-family: cursive, sans-serif;
+    align-self: center;
+}
+
+#about_text_3{
+    font-family: cursive, sans-serif;
+    background-color: rgba(182, 96, 110, 0.5);
+    color:#8b3458;
+    font-family: cursive, sans-serif;
+    align-self: center;
+}
+
+  
   footer{
 
         color:#8b3458;
         font-size: 1rem;
         font-family: "Dancing Script", cursive;
         font-optical-sizing: auto;
-        font-weight: 700;
+        font-weight: 400;
         font-style: normal;
         text-align:left;
-        margin: 20px
-
+        align-items: left;
+        padding-top:20px;
   }
+
+  footer_line{
+    font-optical-sizing: auto;
+  }
+
