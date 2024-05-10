@@ -12,8 +12,6 @@
 
   h1 {
     color: #8b3458;
-    /*width:50%;
-    margin-left:25%;*/
     font-size: 4rem;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
@@ -21,7 +19,6 @@
     font-style: normal;
     background-image:url("images/sakura.jpg");
     background-size: cover;
-    background-position: 0px;
     margin-top:0px;
     margin-bottom: 30px;
 }
@@ -86,7 +83,7 @@
   
   .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     grid-auto-rows: minmax(200px, auto);
   }
