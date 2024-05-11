@@ -5,11 +5,6 @@
   html{
     font-size:12pt;
     background:rgb(0, 0, 0);
-    align-content: center;
-}
-
-body{ 
-  text-align:center;
 }
 
   h1 {
@@ -29,13 +24,27 @@ body{
     font-size: 2rem;
   }
 
+  .bio_container{
+    text-align: justify; /* NOT working. Why?*/
+    text-align-last: center; /* NOT working. Why?*/
+  }
+
   .bio{
     font-size: rem;
-    font-family: cursive, sans-serif;
+    font-family: "Oswald",sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    color: #8b3458;
+    color: #952956;
   }
+  .cv_container{
+    text-align: justify; /* NOT working. Why?*/
+    text-align-last: center; /* NOT working. Why?*/
+  }
+  .cv{
+    font-family: "Oswald",sans-serif;
+    color:#952956
+  }
+  
   #bodytext{
     font-size:1rem;
     background: rgb(255, 247, 241);
@@ -56,7 +65,7 @@ body{
     background-color: rgba(182, 96, 110, 0.247);
     color:#d30058;
     font-family: cursive, sans-serif;
-    align-self: center;
+    text-align: center;
 }
 
 
@@ -66,7 +75,7 @@ body{
     background-color: #7a4058;
     color:rgb(255, 247, 241);
     font-family: cursive, sans-serif;
-    align-self: center;
+    text-align: center;
 }
 
 #about_text_3{
@@ -76,6 +85,7 @@ body{
     background-color: rgba(182, 96, 110, 0.5);
     color:#ff8ebd;
     font-family: cursive, sans-serif;
+    text-align: center;
 }
 
 
